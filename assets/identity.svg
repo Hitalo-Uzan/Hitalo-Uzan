@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Cartão de identidade netrunner e radar de habilidades: LLM e agentes 95, Data Eng 92, Automação 90, Cloud GCP 88, ML e estatística 86, Backend e API 82">
+<defs>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glowBig" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="7" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#ffffff" opacity="0.035"/>
+  </pattern>
+
+  <linearGradient id="holo" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#00f0ff" stop-opacity="0.16"/>
+    <stop offset="0.5" stop-color="#7a00ff" stop-opacity="0.10"/>
+    <stop offset="1" stop-color="#ff2bd6" stop-opacity="0.18"/>
+  </linearGradient>
+  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#fff" stop-opacity="0.13"/>
+    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="card"><polygon points="40,40 560,40 600,80 600,420 80,420 40,380"/></clipPath>
+</defs>
+<style>
+  .t { font-family: 'Share Tech Mono','JetBrains Mono','Courier New',monospace; font-weight: 700; }
+  .m { font-family: 'Share Tech Mono','JetBrains Mono','Courier New',monospace; }
+  .blink { animation: blink 1.2s infinite steps(1); }
+  .sweep { animation: sweep 5s ease-in-out infinite; }
+  .spin { transform-origin: 905px 240px; animation: spin 8s linear infinite; }
+  .pulse { transform-origin: 905px 240px; animation: pulse 3s ease-in-out infinite; }
+  .scanline { animation: sl 3.5s linear infinite; }
+  @keyframes blink { 0%{opacity:1} 50%{opacity:0.15} }
+  @keyframes sweep { 0%{transform:translateX(-700px)} 60%,100%{transform:translateX(700px)} }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes pulse { 0%,100%{transform:scale(1)} 50%{transform:scale(1.04)} }
+  @keyframes sl { 0%{transform:translateY(0)} 100%{transform:translateY(118px)} }
+</style>
+<rect width="1200" height="440" rx="14" fill="#05010f"/>
+
+<!-- ID card -->
+<g>
+  <polygon points="40,40 560,40 600,80 600,420 80,420 40,380" fill="#0d0420"/>
+  <polygon points="40,40 560,40 600,80 600,420 80,420 40,380" fill="url(#holo)"/>
+  <g clip-path="url(#card)"><rect class="sweep" x="0" y="40" width="260" height="380" fill="url(#shine)" transform="skewX(-20)"/></g>
+  <polygon points="40,40 560,40 600,80 600,420 80,420 40,380" fill="none" stroke="#00f0ff" stroke-width="2" filter="url(#glow)"/>
+  <rect x="40" y="40" width="300" height="34" fill="#f9f002"/>
+  <text x="54" y="63" class="t" font-size="16" fill="#0b0218" letter-spacing="2">ID://NETRUNNER-0x2077</text>
+  <text x="548" y="63" text-anchor="end" class="m" font-size="12" fill="#ff2bd6"><tspan class="blink">● ONLINE</tspan></text>
+
+  <!-- avatar -->
+  <g transform="translate(130,236)">
+    <polygon points="0,-82 71,-41 71,41 0,82 -71,41 -71,-41" fill="#140630" stroke="#ff2bd6" stroke-width="2" filter="url(#glow)"/>
+    <polygon points="0,-64 55,-32 55,32 0,64 -55,32 -55,-32" fill="none" stroke="#00f0ff" stroke-opacity="0.5" stroke-dasharray="4 4"/>
+    <text y="16" text-anchor="middle" class="t" font-size="46" fill="#f5f0ff" filter="url(#glow)">HU</text>
+    <g clip-path="url(#card)"><rect class="scanline" x="-71" y="-60" width="142" height="2" fill="#00f0ff" opacity="0.8"/></g>
+    <text y="112" text-anchor="middle" class="m" font-size="11" fill="#00f0ff">BIOMETRIA OK</text>
+  </g>
+  <text x="220" y="128" class="m" font-size="12" fill="#00f0ff" opacity="0.8">HANDLE</text><text x="220" y="143" class="m" font-size="15" fill="#e9e4ff">hitalo-uzan</text><text x="220" y="168" class="m" font-size="12" fill="#00f0ff" opacity="0.8">CLASSE</text><text x="220" y="183" class="m" font-size="15" fill="#e9e4ff">Netrunner · Data Sci / AI Eng</text><text x="220" y="208" class="m" font-size="12" fill="#00f0ff" opacity="0.8">ORIGEM</text><text x="220" y="223" class="m" font-size="15" fill="#e9e4ff">BR · Ciência da Computação</text><text x="220" y="248" class="m" font-size="12" fill="#00f0ff" opacity="0.8">AFILIAÇÃO</text><text x="220" y="263" class="m" font-size="15" fill="#ff2bd6">████████ [REDACTED]</text><text x="220" y="288" class="m" font-size="12" fill="#00f0ff" opacity="0.8">ESPECIALIDADE</text><text x="220" y="303" class="m" font-size="15" fill="#e9e4ff">pipelines · agentes LLM · modelos</text><text x="220" y="328" class="m" font-size="12" fill="#00f0ff" opacity="0.8">ARMA FAVORITA</text><text x="220" y="343" class="m" font-size="15" fill="#e9e4ff">Python + BigQuery + Claude</text>
+  <rect x="60" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="62" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="65" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="68" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="72" y="372" width="4" height="26" fill="#00f0ff" opacity="0.75"/><rect x="77" y="372" width="4" height="26" fill="#00f0ff" opacity="0.75"/><rect x="83" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="85" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="87" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="92" y="372" width="4" height="26" fill="#00f0ff" opacity="0.75"/><rect x="97" y="372" width="4" height="26" fill="#00f0ff" opacity="0.75"/><rect x="102" y="372" width="4" height="26" fill="#00f0ff" opacity="0.75"/><rect x="108" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="112" y="372" width="4" height="26" fill="#00f0ff" opacity="0.75"/><rect x="118" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="120" y="372" width="3" height="26" fill="#00f0ff" opacity="0.75"/><rect x="125" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="128" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="132" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="134" y="372" width="3" height="26" fill="#00f0ff" opacity="0.75"/><rect x="138" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="142" y="372" width="4" height="26" fill="#00f0ff" opacity="0.75"/><rect x="148" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="152" y="372" width="3" height="26" fill="#00f0ff" opacity="0.75"/><rect x="158" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="161" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="165" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="170" y="372" width="4" height="26" fill="#00f0ff" opacity="0.75"/><rect x="176" y="372" width="4" height="26" fill="#00f0ff" opacity="0.75"/><rect x="181" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="183" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="187" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="189" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="192" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="196" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="199" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="203" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="208" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="213" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="217" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="222" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="225" y="372" width="3" height="26" fill="#00f0ff" opacity="0.75"/><rect x="230" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="235" y="372" width="4" height="26" fill="#00f0ff" opacity="0.75"/><rect x="240" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="243" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="246" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="250" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="253" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="258" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="261" y="372" width="3" height="26" fill="#00f0ff" opacity="0.75"/><rect x="266" y="372" width="3" height="26" fill="#00f0ff" opacity="0.75"/><rect x="270" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="273" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="278" y="372" width="4" height="26" fill="#00f0ff" opacity="0.75"/><rect x="285" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="290" y="372" width="4" height="26" fill="#00f0ff" opacity="0.75"/><rect x="296" y="372" width="4" height="26" fill="#00f0ff" opacity="0.75"/><rect x="302" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="305" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="310" y="372" width="3" height="26" fill="#00f0ff" opacity="0.75"/><rect x="314" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="316" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="321" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="326" y="372" width="3" height="26" fill="#00f0ff" opacity="0.75"/><rect x="332" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="335" y="372" width="3" height="26" fill="#00f0ff" opacity="0.75"/><rect x="341" y="372" width="3" height="26" fill="#00f0ff" opacity="0.75"/><rect x="347" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="352" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="356" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="360" y="372" width="4" height="26" fill="#00f0ff" opacity="0.75"/><rect x="366" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="369" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="373" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="377" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="381" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="386" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/><rect x="391" y="372" width="1" height="26" fill="#00f0ff" opacity="0.75"/><rect x="395" y="372" width="2" height="26" fill="#00f0ff" opacity="0.75"/>
+  <text x="580" y="392" text-anchor="end" class="m" font-size="11" fill="#00f0ff" opacity="0.7">CHECKSUM 0xC0FFEE</text>
+  <text x="580" y="408" text-anchor="end" class="m" font-size="11" fill="#ff2bd6" opacity="0.8">NÍVEL DE ACESSO: ROOT*</text>
+</g>
+
+<!-- radar -->
+<text x="905" y="36" text-anchor="middle" class="t" font-size="16" fill="#ff2bd6" letter-spacing="3">// SCAN DE IMPLANTES NEURAIS</text>
+<g class="spin" opacity="0.5">
+  <circle cx="905" cy="240" r="158" fill="none" stroke="#00f0ff" stroke-width="1" stroke-dasharray="2 10"/>
+</g>
+<polygon points="905.0,208.0 932.7,224.0 932.7,256.0 905.0,272.0 877.3,256.0 877.3,224.0" fill="none" stroke="#7a00ff" stroke-opacity="0.39" stroke-width="1"/><polygon points="905.0,176.0 960.4,208.0 960.4,272.0 905.0,304.0 849.6,272.0 849.6,208.0" fill="none" stroke="#7a00ff" stroke-opacity="0.42" stroke-width="1"/><polygon points="905.0,144.0 988.1,192.0 988.1,288.0 905.0,336.0 821.9,288.0 821.9,192.0" fill="none" stroke="#7a00ff" stroke-opacity="0.46" stroke-width="1"/><polygon points="905.0,112.0 1015.9,176.0 1015.9,304.0 905.0,368.0 794.1,304.0 794.1,176.0" fill="none" stroke="#7a00ff" stroke-opacity="0.50" stroke-width="1"/>
+<line x1="905" y1="240" x2="905.0" y2="112.0" stroke="#7a00ff" stroke-opacity="0.45"/><line x1="905" y1="240" x2="1015.9" y2="176.0" stroke="#7a00ff" stroke-opacity="0.45"/><line x1="905" y1="240" x2="1015.9" y2="304.0" stroke="#7a00ff" stroke-opacity="0.45"/><line x1="905" y1="240" x2="905.0" y2="368.0" stroke="#7a00ff" stroke-opacity="0.45"/><line x1="905" y1="240" x2="794.1" y2="304.0" stroke="#7a00ff" stroke-opacity="0.45"/><line x1="905" y1="240" x2="794.1" y2="176.0" stroke="#7a00ff" stroke-opacity="0.45"/>
+<g class="pulse">
+  <polygon points="905.0,118.4 1007.0,181.1 1002.5,296.3 905.0,355.2 814.1,292.5 809.7,185.0" fill="#ff2bd6" fill-opacity="0.28" stroke="#ff2bd6" stroke-width="2.5" filter="url(#glow)"/>
+  <circle cx="905.0" cy="118.4" r="4" fill="#f9f002"/><circle cx="1007.0" cy="181.1" r="4" fill="#f9f002"/><circle cx="1002.5" cy="296.3" r="4" fill="#f9f002"/><circle cx="905.0" cy="355.2" r="4" fill="#f9f002"/><circle cx="814.1" cy="292.5" r="4" fill="#f9f002"/><circle cx="809.7" cy="185.0" r="4" fill="#f9f002"/>
+</g>
+<text x="905.0" y="87.8" text-anchor="middle" class="m" font-size="13" fill="#00f0ff">LLM / AGENTES <tspan fill="#f9f002">95</tspan></text><text x="1040.2" y="165.9" text-anchor="start" class="m" font-size="13" fill="#00f0ff">DATA ENG <tspan fill="#f9f002">92</tspan></text><text x="1040.2" y="322.1" text-anchor="start" class="m" font-size="13" fill="#00f0ff">CLOUD / GCP <tspan fill="#f9f002">88</tspan></text><text x="905.0" y="400.2" text-anchor="middle" class="m" font-size="13" fill="#00f0ff">AUTOMAÇÃO <tspan fill="#f9f002">90</tspan></text><text x="769.8" y="322.1" text-anchor="end" class="m" font-size="13" fill="#00f0ff">BACKEND / API <tspan fill="#f9f002">82</tspan></text><text x="769.8" y="165.9" text-anchor="end" class="m" font-size="13" fill="#00f0ff">ML / ESTATÍSTICA <tspan fill="#f9f002">86</tspan></text>
+<text x="905" y="426" text-anchor="middle" class="m" font-size="11" fill="#7a00ff">*root só em ambiente local. produção é read-only até aprovação humana.</text>
+<rect width="1200" height="440" rx="14" fill="url(#scan)"/>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-label="Mapa da rede de dados: ERP, e-commerce, CRM, ads e planilhas entram por jobs no Cloud Run, viram tabelas no BigQuery, passam pelo Claude e saem como dashboards, agentes de IA, ativação de CRM, apps internos e modelos">
+<defs>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glowBig" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="7" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#ffffff" opacity="0.035"/>
+  </pattern>
+
+  <path id="s0" d="M210 90 C 270 90, 260 250, 270 250"/><path id="s1" d="M210 170 C 270 170, 260 250, 270 250"/><path id="s2" d="M210 250 C 270 250, 260 250, 270 250"/><path id="s3" d="M210 330 C 270 330, 260 250, 270 250"/><path id="s4" d="M210 410 C 270 410, 260 250, 270 250"/><path id="o0" d="M930 250 C 930 250, 930 90, 990 90"/><path id="o1" d="M930 250 C 930 250, 930 170, 990 170"/><path id="o2" d="M930 250 C 930 250, 930 250, 990 250"/><path id="o3" d="M930 250 C 930 250, 930 330, 990 330"/><path id="o4" d="M930 250 C 930 250, 930 410, 990 410"/><path id="ic" d="M390 250 L 530 250"/><path id="cs" d="M670 250 L 810 250"/><path id="cb" d="M600 180 L 600 134"/><path id="bs" d="M710 100 C 800 100, 870 150, 870 210"/>
+</defs>
+<style>
+  .t { font-family: 'Share Tech Mono','JetBrains Mono','Courier New',monospace; font-weight: 700; }
+  .m { font-family: 'Share Tech Mono','JetBrains Mono','Courier New',monospace; }
+  .spin { transform-origin: 600px 250px; animation: spin 14s linear infinite; }
+  .spinr { transform-origin: 600px 250px; animation: spin 9s linear infinite reverse; }
+  .beat { animation: beat 1.6s ease-in-out infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes beat { 0%,100%{opacity:0.55} 50%{opacity:1} }
+</style>
+<rect width="1200" height="500" rx="14" fill="#05010f"/>
+<text x="30" y="34" class="t" font-size="15" fill="#f9f002" letter-spacing="3">// MAPA DA REDE · ONDE MEUS DADOS CIRCULAM</text>
+<text x="1170" y="34" text-anchor="end" class="m" font-size="12" fill="#00f0ff" opacity="0.7">tráfego simulado · pacotes reais são confidenciais</text>
+<path fill="none" stroke="#7a00ff" stroke-width="1.5" stroke-opacity="0.7" data-id="s0" d="M210 90 C 270 90, 260 250, 270 250"/><path fill="none" stroke="#7a00ff" stroke-width="1.5" stroke-opacity="0.7" data-id="s1" d="M210 170 C 270 170, 260 250, 270 250"/><path fill="none" stroke="#7a00ff" stroke-width="1.5" stroke-opacity="0.7" data-id="s2" d="M210 250 C 270 250, 260 250, 270 250"/><path fill="none" stroke="#7a00ff" stroke-width="1.5" stroke-opacity="0.7" data-id="s3" d="M210 330 C 270 330, 260 250, 270 250"/><path fill="none" stroke="#7a00ff" stroke-width="1.5" stroke-opacity="0.7" data-id="s4" d="M210 410 C 270 410, 260 250, 270 250"/><path fill="none" stroke="#7a00ff" stroke-width="1.5" stroke-opacity="0.7" data-id="o0" d="M930 250 C 930 250, 930 90, 990 90"/><path fill="none" stroke="#7a00ff" stroke-width="1.5" stroke-opacity="0.7" data-id="o1" d="M930 250 C 930 250, 930 170, 990 170"/><path fill="none" stroke="#7a00ff" stroke-width="1.5" stroke-opacity="0.7" data-id="o2" d="M930 250 C 930 250, 930 250, 990 250"/><path fill="none" stroke="#7a00ff" stroke-width="1.5" stroke-opacity="0.7" data-id="o3" d="M930 250 C 930 250, 930 330, 990 330"/><path fill="none" stroke="#7a00ff" stroke-width="1.5" stroke-opacity="0.7" data-id="o4" d="M930 250 C 930 250, 930 410, 990 410"/><path fill="none" stroke="#7a00ff" stroke-width="1.5" stroke-opacity="0.7" data-id="ic" d="M390 250 L 530 250"/><path fill="none" stroke="#7a00ff" stroke-width="1.5" stroke-opacity="0.7" data-id="cs" d="M670 250 L 810 250"/><path fill="none" stroke="#7a00ff" stroke-width="1.5" stroke-opacity="0.7" data-id="cb" d="M600 180 L 600 134"/><path fill="none" stroke="#7a00ff" stroke-width="1.5" stroke-opacity="0.7" data-id="bs" d="M710 100 C 800 100, 870 150, 870 210"/>
+<g><rect x="30" y="64" width="180" height="52" fill="#0d0420" stroke="#00f0ff" stroke-opacity="0.8"/><rect x="30" y="64" width="4" height="52" fill="#00f0ff"/><text x="46" y="86" class="t" font-size="14" fill="#f5f0ff">ERP</text><text x="46" y="104" class="m" font-size="12" fill="#00f0ff" opacity="0.8">SAP HANA</text></g><g><rect x="30" y="144" width="180" height="52" fill="#0d0420" stroke="#00f0ff" stroke-opacity="0.8"/><rect x="30" y="144" width="4" height="52" fill="#ff2bd6"/><text x="46" y="166" class="t" font-size="14" fill="#f5f0ff">E-COMMERCE</text><text x="46" y="184" class="m" font-size="12" fill="#00f0ff" opacity="0.8">VTEX</text></g><g><rect x="30" y="224" width="180" height="52" fill="#0d0420" stroke="#00f0ff" stroke-opacity="0.8"/><rect x="30" y="224" width="4" height="52" fill="#f9f002"/><text x="46" y="246" class="t" font-size="14" fill="#f5f0ff">CRM</text><text x="46" y="264" class="m" font-size="12" fill="#00f0ff" opacity="0.8">Marketing Cloud</text></g><g><rect x="30" y="304" width="180" height="52" fill="#0d0420" stroke="#00f0ff" stroke-opacity="0.8"/><rect x="30" y="304" width="4" height="52" fill="#00f0ff"/><text x="46" y="326" class="t" font-size="14" fill="#f5f0ff">ADS</text><text x="46" y="344" class="m" font-size="12" fill="#00f0ff" opacity="0.8">Meta Ads</text></g><g><rect x="30" y="384" width="180" height="52" fill="#0d0420" stroke="#00f0ff" stroke-opacity="0.8"/><rect x="30" y="384" width="4" height="52" fill="#ff2bd6"/><text x="46" y="406" class="t" font-size="14" fill="#f5f0ff">PLANILHAS</text><text x="46" y="424" class="m" font-size="12" fill="#00f0ff" opacity="0.8">Google Sheets</text></g><g><rect x="990" y="64" width="180" height="52" fill="#0d0420" stroke="#ff2bd6" stroke-opacity="0.8"/><rect x="1166" y="64" width="4" height="52" fill="#ff2bd6"/><text x="1006" y="86" class="t" font-size="14" fill="#f5f0ff">DASHBOARDS</text><text x="1006" y="104" class="m" font-size="12" fill="#ff2bd6" opacity="0.85">FastAPI + chat IA</text></g><g><rect x="990" y="144" width="180" height="52" fill="#0d0420" stroke="#ff2bd6" stroke-opacity="0.8"/><rect x="1166" y="144" width="4" height="52" fill="#00f0ff"/><text x="1006" y="166" class="t" font-size="14" fill="#f5f0ff">AGENTES IA</text><text x="1006" y="184" class="m" font-size="12" fill="#ff2bd6" opacity="0.85">copy · juízes · eval</text></g><g><rect x="990" y="224" width="180" height="52" fill="#0d0420" stroke="#ff2bd6" stroke-opacity="0.8"/><rect x="1166" y="224" width="4" height="52" fill="#f9f002"/><text x="1006" y="246" class="t" font-size="14" fill="#f5f0ff">ATIVAÇÃO CRM</text><text x="1006" y="264" class="m" font-size="12" fill="#ff2bd6" opacity="0.85">tiers + públicos</text></g><g><rect x="990" y="304" width="180" height="52" fill="#0d0420" stroke="#ff2bd6" stroke-opacity="0.8"/><rect x="1166" y="304" width="4" height="52" fill="#ff2bd6"/><text x="1006" y="326" class="t" font-size="14" fill="#f5f0ff">APPS INTERNOS</text><text x="1006" y="344" class="m" font-size="12" fill="#ff2bd6" opacity="0.85">Firestore</text></g><g><rect x="990" y="384" width="180" height="52" fill="#0d0420" stroke="#ff2bd6" stroke-opacity="0.8"/><rect x="1166" y="384" width="4" height="52" fill="#00f0ff"/><text x="1006" y="406" class="t" font-size="14" fill="#f5f0ff">MODELOS</text><text x="1006" y="424" class="m" font-size="12" fill="#ff2bd6" opacity="0.85">elasticidade · MMM</text></g>
+
+<!-- ingest -->
+<g>
+  <rect x="270" y="160" width="120" height="180" fill="#0d0420" stroke="#00f0ff" stroke-width="2" filter="url(#glow)"/>
+  <text x="330" y="190" text-anchor="middle" class="t" font-size="13" fill="#00f0ff">INGESTÃO</text>
+  <rect x="286" y="206" width="88" height="14" fill="#00f0ff" opacity="0.18"><animate attributeName="opacity" values="0.12;0.6;0.12" dur="1.8s" begin="0.0s" repeatCount="indefinite"/></rect><rect x="286" y="228" width="88" height="14" fill="#00f0ff" opacity="0.18"><animate attributeName="opacity" values="0.12;0.6;0.12" dur="1.8s" begin="0.3s" repeatCount="indefinite"/></rect><rect x="286" y="250" width="88" height="14" fill="#00f0ff" opacity="0.18"><animate attributeName="opacity" values="0.12;0.6;0.12" dur="1.8s" begin="0.6s" repeatCount="indefinite"/></rect><rect x="286" y="272" width="88" height="14" fill="#00f0ff" opacity="0.18"><animate attributeName="opacity" values="0.12;0.6;0.12" dur="1.8s" begin="0.9s" repeatCount="indefinite"/></rect><rect x="286" y="294" width="88" height="14" fill="#00f0ff" opacity="0.18"><animate attributeName="opacity" values="0.12;0.6;0.12" dur="1.8s" begin="1.2s" repeatCount="indefinite"/></rect>
+  <text x="330" y="328" text-anchor="middle" class="m" font-size="11" fill="#e9e4ff">Cloud Run jobs</text>
+</g>
+
+<!-- core -->
+<g>
+  <circle class="spin" cx="600" cy="250" r="92" fill="none" stroke="#ff2bd6" stroke-width="1.5" stroke-dasharray="12 8" opacity="0.7"/>
+  <circle class="spinr" cx="600" cy="250" r="82" fill="none" stroke="#00f0ff" stroke-width="1" stroke-dasharray="3 6" opacity="0.6"/>
+  <polygon points="670.0,250.0 635.0,310.6 565.0,310.6 530.0,250.0 565.0,189.4 635.0,189.4" fill="#140630" stroke="#ff2bd6" stroke-width="2.5" filter="url(#glowBig)"/>
+  <text x="600" y="242" text-anchor="middle" class="t" font-size="15" fill="#f5f0ff">DATA CORE</text>
+  <text x="600" y="262" text-anchor="middle" class="m" font-size="12" fill="#ff2bd6">BigQuery</text>
+  <text x="600" y="278" text-anchor="middle" class="m" font-size="10" fill="#00f0ff">RAW → MAIN → DM_*</text>
+</g>
+
+<!-- brain -->
+<g class="beat">
+  <rect x="490" y="66" width="220" height="68" rx="34" fill="#1a0a10" stroke="#f9f002" stroke-width="2" filter="url(#glow)"/>
+  <text x="600" y="94" text-anchor="middle" class="t" font-size="14" fill="#f9f002">NEURAL ENGINE</text>
+  <text x="600" y="114" text-anchor="middle" class="m" font-size="12" fill="#f5f0ff">Claude · tools · MCP</text>
+</g>
+
+<!-- serve -->
+<g>
+  <rect x="810" y="210" width="120" height="80" fill="#0d0420" stroke="#ff2bd6" stroke-width="2" filter="url(#glow)"/>
+  <text x="870" y="244" text-anchor="middle" class="t" font-size="13" fill="#ff2bd6">SERVING</text>
+  <text x="870" y="264" text-anchor="middle" class="m" font-size="11" fill="#e9e4ff">APIs · services</text>
+</g>
+
+<circle r="4" fill="#00f0ff" filter="url(#glow)"><animateMotion dur="2.20s" begin="0.00s" repeatCount="indefinite"><mpath href="#s0"/></animateMotion></circle><circle r="4" fill="#ff2bd6" filter="url(#glow)"><animateMotion dur="2.50s" begin="0.40s" repeatCount="indefinite"><mpath href="#s1"/></animateMotion></circle><circle r="4" fill="#f9f002" filter="url(#glow)"><animateMotion dur="2.80s" begin="0.80s" repeatCount="indefinite"><mpath href="#s2"/></animateMotion></circle><circle r="4" fill="#00f0ff" filter="url(#glow)"><animateMotion dur="3.10s" begin="1.20s" repeatCount="indefinite"><mpath href="#s3"/></animateMotion></circle><circle r="4" fill="#ff2bd6" filter="url(#glow)"><animateMotion dur="3.40s" begin="1.60s" repeatCount="indefinite"><mpath href="#s4"/></animateMotion></circle><circle r="4" fill="#ff2bd6" filter="url(#glow)"><animateMotion dur="2.00s" begin="1.00s" repeatCount="indefinite"><mpath href="#o0"/></animateMotion></circle><circle r="4" fill="#00f0ff" filter="url(#glow)"><animateMotion dur="2.25s" begin="1.35s" repeatCount="indefinite"><mpath href="#o1"/></animateMotion></circle><circle r="4" fill="#f9f002" filter="url(#glow)"><animateMotion dur="2.50s" begin="1.70s" repeatCount="indefinite"><mpath href="#o2"/></animateMotion></circle><circle r="4" fill="#ff2bd6" filter="url(#glow)"><animateMotion dur="2.75s" begin="2.05s" repeatCount="indefinite"><mpath href="#o3"/></animateMotion></circle><circle r="4" fill="#00f0ff" filter="url(#glow)"><animateMotion dur="3.00s" begin="2.40s" repeatCount="indefinite"><mpath href="#o4"/></animateMotion></circle><circle r="4" fill="#00f0ff" filter="url(#glow)"><animateMotion dur="1.40s" begin="0.00s" repeatCount="indefinite"><mpath href="#ic"/></animateMotion></circle><circle r="4" fill="#ff2bd6" filter="url(#glow)"><animateMotion dur="1.40s" begin="0.70s" repeatCount="indefinite"><mpath href="#ic"/></animateMotion></circle><circle r="4" fill="#f9f002" filter="url(#glow)"><animateMotion dur="1.30s" begin="0.20s" repeatCount="indefinite"><mpath href="#cs"/></animateMotion></circle><circle r="4" fill="#00f0ff" filter="url(#glow)"><animateMotion dur="1.30s" begin="0.85s" repeatCount="indefinite"><mpath href="#cs"/></animateMotion></circle><circle r="4" fill="#ff2bd6" filter="url(#glow)"><animateMotion dur="1.10s" begin="0.00s" repeatCount="indefinite"><mpath href="#cb"/></animateMotion></circle><circle r="4" fill="#f9f002" filter="url(#glow)"><animateMotion dur="1.80s" begin="0.50s" repeatCount="indefinite"><mpath href="#bs"/></animateMotion></circle>
+
+<g class="m" font-size="11" fill="#7a00ff">
+  <text x="30" y="482">CI: lint · testes · cobertura ≥ 80% no diff · secret scan</text>
+  <text x="1170" y="482" text-anchor="end">merge só com aprovação humana · deploy automático</text>
+</g>
+<rect width="1200" height="500" rx="14" fill="url(#scan)"/>
+</svg>

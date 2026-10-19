@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-label="Fim da transmissão">
+<defs>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glowBig" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="7" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#ffffff" opacity="0.035"/>
+  </pattern>
+</defs>
+<style>
+  .t { font-family: 'Share Tech Mono','JetBrains Mono','Courier New',monospace; font-weight: 700; }
+  .m { font-family: 'Share Tech Mono','JetBrains Mono','Courier New',monospace; }
+  .type { animation: type 5s steps(40) infinite; }
+  .blink { animation: blink 1s infinite steps(1); }
+  @keyframes type { 0%{clip-path: inset(0 100% 0 0)} 50%,100%{clip-path: inset(0 0 0 0)} }
+  @keyframes blink { 0%{opacity:1} 50%{opacity:0} }
+</style>
+<rect width="1200" height="120" rx="14" fill="#05010f"/>
+<line x1="30" y1="22" x2="1170" y2="22" stroke="#ff2bd6" stroke-width="2" stroke-dasharray="30 6 4 6" filter="url(#glow)"/>
+<text x="600.0" y="66" text-anchor="middle" class="t type" font-size="22" fill="#00f0ff" letter-spacing="4" filter="url(#glow)">// FIM DA TRANSMISSÃO · JACKING OUT...</text>
+<text x="600.0" y="96" text-anchor="middle" class="m" font-size="13" fill="#f9f002">wake up, samurai. we have data to ship.<tspan class="blink" fill="#ff2bd6"> █</tspan></text>
+</svg>
