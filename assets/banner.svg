@@ -57,8 +57,8 @@
   <clipPath id="floorClip"><rect x="0" y="300" width="1200" height="100"/></clipPath>
 </defs>
 <style>
-  .t { font-family: 'Share Tech Mono','JetBrains Mono','Courier New',monospace; font-weight: 700; }
-  .m { font-family: 'Share Tech Mono','JetBrains Mono','Courier New',monospace; }
+  .t { font-family: 'Share Tech Mono','JetBrains Mono','Cascadia Mono',Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace; font-weight: 700; }
+  .m { font-family: 'Share Tech Mono','JetBrains Mono','Cascadia Mono',Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace; }
   .g1 { animation: g1 3.2s infinite steps(1); }
   .g2 { animation: g2 3.2s infinite steps(1); }
   .flick { animation: flick 4s infinite; }

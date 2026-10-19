@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Contratos ativos: 0x01 Ghostwriter de marca, agente de copy com juiz LLM e eval; 0x02 CRM de alta voltagem, segmentação em tiers e públicos de ads; 0x03 Cofre de brindes, estoque e pedidos em NoSQL com travas atômicas; 0x04 Oráculo de preços, eficiência de venda, elasticidade e MMM; 0x05 Fluxo de aprovações de pagamento; 0x06 Cyberdeck do time, plugins pro Claude Code e second brain.">
+<defs>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glowBig" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="7" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#ffffff" opacity="0.035"/>
+  </pattern>
+</defs>
+<style>
+  .t { font-family: 'Share Tech Mono','JetBrains Mono','Cascadia Mono',Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace; font-weight: 700; }
+  .m { font-family: 'Share Tech Mono','JetBrains Mono','Cascadia Mono',Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace; }
+  .blink { animation: blink 1s infinite steps(1); }
+  @keyframes blink { 0%{opacity:1} 50%{opacity:0} }
+  @keyframes show { to { opacity: 1; } }
+  .ln { opacity: 0; animation: show 0.01s steps(1) forwards; }
+
+  .edge { animation: edge 3s ease-in-out infinite; }
+  @keyframes edge { 0%,100%{stroke-opacity:0.45} 50%{stroke-opacity:1} }
+  .fill { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 1.4s ease-out forwards; }
+  @keyframes grow { to { transform: scaleX(1); } }
+</style>
+<rect width="1200" height="560" rx="14" fill="#05010f"/>
+<text x="30" y="44" class="t" font-size="15" fill="#f9f002" letter-spacing="3">// QUADRO DE CONTRATOS · 6 ATIVOS</text>
+<text x="1170" y="44" text-anchor="end" class="m" font-size="12" fill="#00f0ff" opacity="0.7">clientes e codinomes reais: [CRIPTOGRAFADO]</text>
+
+<g>
+  <polygon points="30,74 376,74 398,96 398,294 52,294 30,272" fill="#0d0420"/>
+  <polygon points="30,74 376,74 398,96 398,294 52,294 30,272" fill="#ff2bd6" opacity="0.05"/>
+  <polygon points="30,74 376,74 398,96 398,294 52,294 30,272" fill="none" stroke="#ff2bd6" stroke-width="1.6" class="edge" style="animation-delay:0.0s" filter="url(#glow)"/>
+  <rect x="30" y="74" width="64" height="24" fill="#ff2bd6"/>
+  <text x="62" y="91" text-anchor="middle" class="t" font-size="13" fill="#05010f">0x01</text>
+  <text x="108" y="91" class="m" font-size="12" fill="#ff2bd6" letter-spacing="2">IA GENERATIVA</text>
+  <circle cx="302" cy="116" r="4" fill="#3dff9a" class="blink" style="animation-duration:1.20s"/>
+  <text x="312" y="120" class="m" font-size="11" fill="#3dff9a">ONLINE</text>
+  <text x="50" y="156" class="t" font-size="19" fill="#f5f0ff" letter-spacing="1">GHOSTWRITER DE MARCA</text>
+  <line x1="50" y1="168" x2="150" y2="168" stroke="#ff2bd6" stroke-width="2"/>
+  <text x="50" y="192" class="m" font-size="13.5" fill="#cfc8ea">agente que escreve copy de varejo</text><text x="50" y="212" class="m" font-size="13.5" fill="#cfc8ea">com guarda-corpos de marca, juiz</text><text x="50" y="232" class="m" font-size="13.5" fill="#cfc8ea">LLM, feedback e eval automatizado</text>
+  <rect x="50" y="268" width="328" height="6" fill="#ffffff" opacity="0.08"/>
+  <rect x="50" y="268" width="302" height="6" fill="#ff2bd6"><animate attributeName="width" from="0" to="302" dur="1.20s" fill="freeze"/></rect>
+  <text x="378" y="262" text-anchor="end" class="m" font-size="10" fill="#ff2bd6" opacity="0.8">SYNC 92%</text>
+</g>
+<g>
+  <polygon points="420,74 766,74 788,96 788,294 442,294 420,272" fill="#0d0420"/>
+  <polygon points="420,74 766,74 788,96 788,294 442,294 420,272" fill="#00f0ff" opacity="0.05"/>
+  <polygon points="420,74 766,74 788,96 788,294 442,294 420,272" fill="none" stroke="#00f0ff" stroke-width="1.6" class="edge" style="animation-delay:0.5s" filter="url(#glow)"/>
+  <rect x="420" y="74" width="64" height="24" fill="#00f0ff"/>
+  <text x="452" y="91" text-anchor="middle" class="t" font-size="13" fill="#05010f">0x02</text>
+  <text x="498" y="91" class="m" font-size="12" fill="#00f0ff" letter-spacing="2">ATIVAÇÃO</text>
+  <circle cx="692" cy="116" r="4" fill="#3dff9a" class="blink" style="animation-duration:1.35s"/>
+  <text x="702" y="120" class="m" font-size="11" fill="#3dff9a">ONLINE</text>
+  <text x="440" y="156" class="t" font-size="19" fill="#f5f0ff" letter-spacing="1">CRM DE ALTA VOLTAGEM</text>
+  <line x1="440" y1="168" x2="540" y2="168" stroke="#00f0ff" stroke-width="2"/>
+  <text x="440" y="192" class="m" font-size="13.5" fill="#cfc8ea">warehouse → plataforma de marketing,</text><text x="440" y="212" class="m" font-size="13.5" fill="#cfc8ea">clientes segmentados em tiers e</text><text x="440" y="232" class="m" font-size="13.5" fill="#cfc8ea">públicos de ads renovados a cada 3h</text>
+  <rect x="440" y="268" width="328" height="6" fill="#ffffff" opacity="0.08"/>
+  <rect x="440" y="268" width="262" height="6" fill="#00f0ff"><animate attributeName="width" from="0" to="262" dur="1.35s" fill="freeze"/></rect>
+  <text x="768" y="262" text-anchor="end" class="m" font-size="10" fill="#00f0ff" opacity="0.8">SYNC 80%</text>
+</g>
+<g>
+  <polygon points="810,74 1156,74 1178,96 1178,294 832,294 810,272" fill="#0d0420"/>
+  <polygon points="810,74 1156,74 1178,96 1178,294 832,294 810,272" fill="#f9f002" opacity="0.05"/>
+  <polygon points="810,74 1156,74 1178,96 1178,294 832,294 810,272" fill="none" stroke="#f9f002" stroke-width="1.6" class="edge" style="animation-delay:1.0s" filter="url(#glow)"/>
+  <rect x="810" y="74" width="64" height="24" fill="#f9f002"/>
+  <text x="842" y="91" text-anchor="middle" class="t" font-size="13" fill="#05010f">0x03</text>
+  <text x="888" y="91" class="m" font-size="12" fill="#f9f002" letter-spacing="2">OPERAÇÕES</text>
+  <circle cx="1082" cy="116" r="4" fill="#3dff9a" class="blink" style="animation-duration:1.50s"/>
+  <text x="1092" y="120" class="m" font-size="11" fill="#3dff9a">ONLINE</text>
+  <text x="830" y="156" class="t" font-size="19" fill="#f5f0ff" letter-spacing="1">COFRE DE BRINDES</text>
+  <line x1="830" y1="168" x2="930" y2="168" stroke="#f9f002" stroke-width="2"/>
+  <text x="830" y="192" class="m" font-size="13.5" fill="#cfc8ea">gestão de estoque e pedidos migrada</text><text x="830" y="212" class="m" font-size="13.5" fill="#cfc8ea">pra NoSQL, com travas atômicas e</text><text x="830" y="232" class="m" font-size="13.5" fill="#cfc8ea">reconciliação automática</text>
+  <rect x="830" y="268" width="328" height="6" fill="#ffffff" opacity="0.08"/>
+  <rect x="830" y="268" width="328" height="6" fill="#f9f002"><animate attributeName="width" from="0" to="328" dur="1.50s" fill="freeze"/></rect>
+  <text x="1158" y="262" text-anchor="end" class="m" font-size="10" fill="#f9f002" opacity="0.8">SYNC 100%</text>
+</g>
+<g>
+  <polygon points="30,316 376,316 398,338 398,536 52,536 30,514" fill="#0d0420"/>
+  <polygon points="30,316 376,316 398,338 398,536 52,536 30,514" fill="#00f0ff" opacity="0.05"/>
+  <polygon points="30,316 376,316 398,338 398,536 52,536 30,514" fill="none" stroke="#00f0ff" stroke-width="1.6" class="edge" style="animation-delay:1.5s" filter="url(#glow)"/>
+  <rect x="30" y="316" width="64" height="24" fill="#00f0ff"/>
+  <text x="62" y="333" text-anchor="middle" class="t" font-size="13" fill="#05010f">0x04</text>
+  <text x="108" y="333" class="m" font-size="12" fill="#00f0ff" letter-spacing="2">MODELAGEM</text>
+  <circle cx="302" cy="358" r="4" fill="#f9f002" class="blink" style="animation-duration:1.65s"/>
+  <text x="312" y="362" class="m" font-size="11" fill="#f9f002">CALIBRANDO</text>
+  <text x="50" y="398" class="t" font-size="19" fill="#f5f0ff" letter-spacing="1">ORÁCULO DE PREÇOS</text>
+  <line x1="50" y1="410" x2="150" y2="410" stroke="#00f0ff" stroke-width="2"/>
+  <text x="50" y="434" class="m" font-size="13.5" fill="#cfc8ea">eficiência de venda, elasticidade</text><text x="50" y="454" class="m" font-size="13.5" fill="#cfc8ea">de preço e Marketing Mix Modeling</text><text x="50" y="474" class="m" font-size="13.5" fill="#cfc8ea">em cima do data mart de vendas</text>
+  <rect x="50" y="510" width="328" height="6" fill="#ffffff" opacity="0.08"/>
+  <rect x="50" y="510" width="180" height="6" fill="#00f0ff"><animate attributeName="width" from="0" to="180" dur="1.65s" fill="freeze"/></rect>
+  <text x="378" y="504" text-anchor="end" class="m" font-size="10" fill="#00f0ff" opacity="0.8">SYNC 55%</text>
+</g>
+<g>
+  <polygon points="420,316 766,316 788,338 788,536 442,536 420,514" fill="#0d0420"/>
+  <polygon points="420,316 766,316 788,338 788,536 442,536 420,514" fill="#f9f002" opacity="0.05"/>
+  <polygon points="420,316 766,316 788,338 788,536 442,536 420,514" fill="none" stroke="#f9f002" stroke-width="1.6" class="edge" style="animation-delay:2.0s" filter="url(#glow)"/>
+  <rect x="420" y="316" width="64" height="24" fill="#f9f002"/>
+  <text x="452" y="333" text-anchor="middle" class="t" font-size="13" fill="#05010f">0x05</text>
+  <text x="498" y="333" class="m" font-size="12" fill="#f9f002" letter-spacing="2">FINANCEIRO</text>
+  <circle cx="692" cy="358" r="4" fill="#3dff9a" class="blink" style="animation-duration:1.80s"/>
+  <text x="702" y="362" class="m" font-size="11" fill="#3dff9a">ONLINE</text>
+  <text x="440" y="398" class="t" font-size="19" fill="#f5f0ff" letter-spacing="1">FLUXO DE APROVAÇÕES</text>
+  <line x1="440" y1="410" x2="540" y2="410" stroke="#f9f002" stroke-width="2"/>
+  <text x="440" y="434" class="m" font-size="13.5" fill="#cfc8ea">solicitações de pagamento com</text><text x="440" y="454" class="m" font-size="13.5" fill="#cfc8ea">aprovação em etapas — adeus,</text><text x="440" y="474" class="m" font-size="13.5" fill="#cfc8ea">automação no-code</text>
+  <rect x="440" y="510" width="328" height="6" fill="#ffffff" opacity="0.08"/>
+  <rect x="440" y="510" width="328" height="6" fill="#f9f002"><animate attributeName="width" from="0" to="328" dur="1.80s" fill="freeze"/></rect>
+  <text x="768" y="504" text-anchor="end" class="m" font-size="10" fill="#f9f002" opacity="0.8">SYNC 100%</text>
+</g>
+<g>
+  <polygon points="810,316 1156,316 1178,338 1178,536 832,536 810,514" fill="#0d0420"/>
+  <polygon points="810,316 1156,316 1178,338 1178,536 832,536 810,514" fill="#ff2bd6" opacity="0.05"/>
+  <polygon points="810,316 1156,316 1178,338 1178,536 832,536 810,514" fill="none" stroke="#ff2bd6" stroke-width="1.6" class="edge" style="animation-delay:2.5s" filter="url(#glow)"/>
+  <rect x="810" y="316" width="64" height="24" fill="#ff2bd6"/>
+  <text x="842" y="333" text-anchor="middle" class="t" font-size="13" fill="#05010f">0x06</text>
+  <text x="888" y="333" class="m" font-size="12" fill="#ff2bd6" letter-spacing="2">DEV TOOLING</text>
+  <circle cx="1082" cy="358" r="4" fill="#3dff9a" class="blink" style="animation-duration:1.95s"/>
+  <text x="1092" y="362" class="m" font-size="11" fill="#3dff9a">ONLINE</text>
+  <text x="830" y="398" class="t" font-size="19" fill="#f5f0ff" letter-spacing="1">CYBERDECK DO TIME</text>
+  <line x1="830" y1="410" x2="930" y2="410" stroke="#ff2bd6" stroke-width="2"/>
+  <text x="830" y="434" class="m" font-size="13.5" fill="#cfc8ea">marketplace de plugins pro Claude</text><text x="830" y="454" class="m" font-size="13.5" fill="#cfc8ea">Code + second brain que guarda</text><text x="830" y="474" class="m" font-size="13.5" fill="#cfc8ea">memória entre sessões</text>
+  <rect x="830" y="510" width="328" height="6" fill="#ffffff" opacity="0.08"/>
+  <rect x="830" y="510" width="279" height="6" fill="#ff2bd6"><animate attributeName="width" from="0" to="279" dur="1.95s" fill="freeze"/></rect>
+  <text x="1158" y="504" text-anchor="end" class="m" font-size="10" fill="#ff2bd6" opacity="0.8">SYNC 85%</text>
+</g>
+<rect width="1200" height="560" rx="14" fill="url(#scan)"/>
+</svg>

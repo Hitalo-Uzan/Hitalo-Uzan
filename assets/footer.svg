@@ -13,8 +13,8 @@
   </pattern>
 </defs>
 <style>
-  .t { font-family: 'Share Tech Mono','JetBrains Mono','Courier New',monospace; font-weight: 700; }
-  .m { font-family: 'Share Tech Mono','JetBrains Mono','Courier New',monospace; }
+  .t { font-family: 'Share Tech Mono','JetBrains Mono','Cascadia Mono',Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace; font-weight: 700; }
+  .m { font-family: 'Share Tech Mono','JetBrains Mono','Cascadia Mono',Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace; }
   .type { animation: type 5s steps(40) infinite; }
   .blink { animation: blink 1s infinite steps(1); }
   @keyframes type { 0%{clip-path: inset(0 100% 0 0)} 50%,100%{clip-path: inset(0 0 0 0)} }

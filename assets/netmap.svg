@@ -15,8 +15,8 @@
   <path id="s0" d="M210 90 C 270 90, 260 250, 270 250"/><path id="s1" d="M210 170 C 270 170, 260 250, 270 250"/><path id="s2" d="M210 250 C 270 250, 260 250, 270 250"/><path id="s3" d="M210 330 C 270 330, 260 250, 270 250"/><path id="s4" d="M210 410 C 270 410, 260 250, 270 250"/><path id="o0" d="M930 250 C 930 250, 930 90, 990 90"/><path id="o1" d="M930 250 C 930 250, 930 170, 990 170"/><path id="o2" d="M930 250 C 930 250, 930 250, 990 250"/><path id="o3" d="M930 250 C 930 250, 930 330, 990 330"/><path id="o4" d="M930 250 C 930 250, 930 410, 990 410"/><path id="ic" d="M390 250 L 530 250"/><path id="cs" d="M670 250 L 810 250"/><path id="cb" d="M600 180 L 600 134"/><path id="bs" d="M710 100 C 800 100, 870 150, 870 210"/>
 </defs>
 <style>
-  .t { font-family: 'Share Tech Mono','JetBrains Mono','Courier New',monospace; font-weight: 700; }
-  .m { font-family: 'Share Tech Mono','JetBrains Mono','Courier New',monospace; }
+  .t { font-family: 'Share Tech Mono','JetBrains Mono','Cascadia Mono',Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace; font-weight: 700; }
+  .m { font-family: 'Share Tech Mono','JetBrains Mono','Cascadia Mono',Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace; }
   .spin { transform-origin: 600px 250px; animation: spin 14s linear infinite; }
   .spinr { transform-origin: 600px 250px; animation: spin 9s linear infinite reverse; }
   .beat { animation: beat 1.6s ease-in-out infinite; }

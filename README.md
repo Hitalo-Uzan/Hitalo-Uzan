@@ -17,19 +17,10 @@
   <img src="assets/identity.svg" alt="Cartão de identidade e radar de habilidades" width="100%"/>
 </p>
 
-```bash
-┌──(netrunner@grid)-[~/neural-link]
-└─$ whoami
-  Cientista de Dados & AI Engineer. Construo a encanação que leva dados
-  do ERP, do e-commerce e do CRM até o data warehouse — e depois faço
-  esses dados falarem: dashboards, modelos e agentes de IA em produção.
+<p align="center">
+  <img src="assets/terminal.svg" alt="Terminal whoami: Cientista de Dados e AI Engineer, e as diretrizes de trabalho" width="100%"/>
+</p>
 
-└─$ cat /etc/diretrizes
-  01  dado sem teste é boato
-  02  produção é sagrada: merge só com aprovação humana
-  03  nunca confie num default — leia a doc, depois leia o código
-  04  se dá pra automatizar, já devia estar num job
-```
 
 ---
 
@@ -43,20 +34,9 @@
 
 ## ⚡ `> contratos --ativos`
 
-<details open>
-<summary><b>🔻 Abrir lista de contratos</b></summary>
-<br/>
-
-| # | Contrato | Distrito | Payload |
-|:-:|---|---|---|
-| `0x01` | **Ghostwriter de marca** | 🤖 IA generativa | agente que escreve copy de varejo com guarda-corpos de marca, juiz LLM, ciclo de feedback e eval automatizado |
-| `0x02` | **CRM de alta voltagem** | 📡 Ativação | sync warehouse → plataforma de marketing, segmentação automática de clientes em tiers e públicos de ads atualizados de 3 em 3h |
-| `0x03` | **Cofre de brindes** | 📦 Operações | app de gestão de estoque e pedidos migrado de warehouse pra banco NoSQL, com travas atômicas e reconciliação |
-| `0x04` | **Oráculo de preços** | 🧮 Modelagem | eficiência de venda, elasticidade de preço e Marketing Mix Modeling |
-| `0x05` | **Fluxo de aprovações** | 💸 Financeiro | solicitações de pagamento com aprovação em etapas, substituindo automação no-code |
-| `0x06` | **Cyberdeck do time** | 🛠️ Dev tooling | marketplace de plugins pro Claude Code + um second brain que dá memória entre sessões |
-
-</details>
+<p align="center">
+  <img src="assets/contracts.svg" alt="Quadro de contratos ativos: ghostwriter de marca, CRM, cofre de brindes, oráculo de preços, fluxo de aprovações e cyberdeck do time" width="100%"/>
+</p>
 
 <details>
 <summary><b>🧊 ICE quebrado — logs de invasão</b> <i>(clica pra abrir)</i></summary>
@@ -130,20 +110,9 @@
 
 ## 🔐 `> acesso --restrito`
 
-<details>
-<summary><b>🔒 <code>sudo rm -rf /bugs</code></b></summary>
-<br/>
-
-```text
-[sudo] senha para netrunner: ********
-ACESSO NEGADO.
-bugs não se apagam. se testam, se corrigem e viram nota no second brain.
-> SELECT COUNT(*) FROM bugs WHERE status = 'aberto';
-0
--- (até o próximo deploy)
-```
-
-</details>
+<p align="center">
+  <img src="assets/restricted.svg" alt="Área restrita: sudo rm -rf /bugs, acesso negado, bugs abertos: 0" width="100%"/>
+</p>
 
 <p align="center">
   <img src="assets/footer.svg" alt="Fim da transmissão" width="100%"/>

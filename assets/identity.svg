@@ -25,8 +25,8 @@
   <clipPath id="card"><polygon points="40,40 560,40 600,80 600,420 80,420 40,380"/></clipPath>
 </defs>
 <style>
-  .t { font-family: 'Share Tech Mono','JetBrains Mono','Courier New',monospace; font-weight: 700; }
-  .m { font-family: 'Share Tech Mono','JetBrains Mono','Courier New',monospace; }
+  .t { font-family: 'Share Tech Mono','JetBrains Mono','Cascadia Mono',Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace; font-weight: 700; }
+  .m { font-family: 'Share Tech Mono','JetBrains Mono','Cascadia Mono',Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace; }
   .blink { animation: blink 1.2s infinite steps(1); }
   .sweep { animation: sweep 5s ease-in-out infinite; }
   .spin { transform-origin: 905px 240px; animation: spin 8s linear infinite; }
