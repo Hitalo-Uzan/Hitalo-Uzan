@@ -128,7 +128,7 @@
 
 ---
 
-## 📡 `> telemetria`
+## 🔐 `> acesso --restrito`
 
 <details>
 <summary><b>🔒 <code>sudo rm -rf /bugs</code></b></summary>
