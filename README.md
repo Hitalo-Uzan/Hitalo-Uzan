@@ -7,7 +7,6 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Hitalo-Uzan&label=NETRUNNERS+CONECTADOS&color=ff2bd6&style=for-the-badge" alt="visitas"/>
   <img src="https://img.shields.io/badge/STATUS-ONLINE-00f0ff?style=for-the-badge&labelColor=05010f" alt="online"/>
   <img src="https://img.shields.io/badge/CLASSE-NETRUNNER-f9f002?style=for-the-badge&labelColor=05010f" alt="classe"/>
 </p>
@@ -19,7 +18,7 @@
 </p>
 
 ```bash
-┌──(netrunner㉿grid)-[~/neural-link]
+┌──(netrunner@grid)-[~/neural-link]
 └─$ whoami
   Cientista de Dados & AI Engineer. Construo a encanação que leva dados
   do ERP, do e-commerce e do CRM até o data warehouse — e depois faço
@@ -96,7 +95,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/BigQuery-00f0ff?style=flat-square&logo=googlebigquery&logoColor=05010f&labelColor=05010f&color=00f0ff"/>
+  <img src="https://img.shields.io/badge/BigQuery-00f0ff?style=flat-square&logo=googlebigquery&logoColor=05010f"/>
   <img src="https://img.shields.io/badge/Cloud_Run-ff2bd6?style=flat-square&logo=googlecloud&logoColor=white"/>
   <img src="https://img.shields.io/badge/Firestore-f9f002?style=flat-square&logo=firebase&logoColor=05010f"/>
   <img src="https://img.shields.io/badge/Claude_API-7a00ff?style=flat-square&logo=anthropic&logoColor=white"/>
@@ -130,15 +129,6 @@
 ---
 
 ## 📡 `> telemetria`
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Hitalo-Uzan&show_icons=true&hide_border=true&bg_color=05010f&title_color=ff2bd6&icon_color=00f0ff&text_color=e9e4ff&ring_color=f9f002&include_all_commits=true&count_private=true" alt="stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hitalo-Uzan&layout=compact&hide_border=true&bg_color=05010f&title_color=ff2bd6&text_color=e9e4ff" alt="linguagens"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hitalo-Uzan&bg_color=05010f&color=00f0ff&line=ff2bd6&point=f9f002&area=true&area_color=7a00ff&hide_border=true&title_color=ff2bd6&custom_title=Sinal%20de%20atividade%20na%20grid" alt="gráfico de atividade"/>
-</p>
 
 <details>
 <summary><b>🔒 <code>sudo rm -rf /bugs</code></b></summary>
